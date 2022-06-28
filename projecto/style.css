@@ -9,9 +9,16 @@ body{
     text-transform: capitalize;
 
 }
+.navbar ul{
+  
+  
+  
+}
 .navbar a:hover{
 background-color: rgba(0, 0, 255, 0.559);
 color:white;
+text-align: center;
+border-radius: 5px;
 
 }
 .quem-somos{
@@ -28,7 +35,11 @@ h3{
 #Trabalhos{
   margin-top: 30px;
 }
-#Trabalhos h3{
+#Trabalhos {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-between;
   margin-bottom: 20px;
 }
 .trabalhos{
@@ -46,7 +57,9 @@ h3{
 }
 .trabalhos:hover{
      padding:20px;
+
      border-color:rgb(0, 162, 255);
+    
      
 }
 .trabalhos h4{
@@ -64,7 +77,12 @@ ul{
 li{
     text-align: left;
 }
+#fala{
+  width: 300px;
+ border:none;
+}
 .servicos{
+  
   border: solid 2px rgba(0, 0, 0, 0.215)  ;
   margin: 10px;
 }
