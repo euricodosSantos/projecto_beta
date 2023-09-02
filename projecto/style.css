@@ -88,7 +88,23 @@ li{
 }
 footer{
 
- 
+ margin-top: 60px;
   background-color: black;
   color: white;
+}
+table{
+  border-collapse:collapse ;
+  margin-bottom: 10px;
+}
+tr,td{
+  border:solid 1px black;
+  padding: 10px;
+  
+}
+#tabela{
+  display: flex;
+  flex-direction: flex;
+  margin: auto;
+
+
 }
